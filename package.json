@@ -4,7 +4,8 @@
   "description": "DiscordNewsBot",
   "main": "index.js",
   "scripts": {
-    "test": "node index.js"
+    "start": "node index.js",
+    "test": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -18,6 +19,7 @@
   "homepage": "https://github.com/kry008/DiscordNewsBot#readme",
   "dependencies": {
     "discord.js": "^13.6.0",
-    "dotenv": "^15.0.0"
+    "dotenv": "^15.0.0",
+    "nodemon": "^2.0.15"
   }
 }
